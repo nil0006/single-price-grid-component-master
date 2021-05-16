@@ -24,7 +24,7 @@ body{
 }
 #box1{
     background-color: white;
-    border-radius: 5px 5px 0 0px;    
+    border-radius: 7px 7px 0 0px;    
     padding: 30px;
 }
 #box1 h1{
@@ -44,7 +44,8 @@ h2{ font-weight: 700;
     line-height: 30px;
     color:  hsl(218, 22%, 67%);
 }
-#box2{ justify-content:center ;
+#box2{  border-radius: 0 0px 0 7px;
+    justify-content:center ;
     align-items: center;
     padding-bottom: 50px;
     padding-left: 30px;
@@ -74,10 +75,16 @@ a{  padding: 20px 125px;
     color: white;
     background-color:hsl(71, 73%, 54%) ;
 text-decoration: none;
+transition: all 0.5s;
+}
+a:hover{
+   padding: 18px 115px;
 }
 
 
 #box3{
+
+    border-radius: 0 0px 7px 0px;
     align-items: center;
     justify-content: center;
   
@@ -99,6 +106,12 @@ padding: 40px;
 body{
         margin: 5em 3em;
 
+}
+#box3{
+    border-radius: 0 0 7px 7px ;
+}
+#box2{
+    border-radius: 0 0 0 0;
 }
 
 
